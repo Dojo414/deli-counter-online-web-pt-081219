@@ -21,3 +21,7 @@ def take_a_number(array, customer)
   puts "Welcome, #{customer}. You are number #{number_in_line} in line."
 end
   
+def now_serving
+  if katz_deli.length == 0 
+    puts "There is nobody waiting to be served."
+  
