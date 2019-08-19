@@ -18,6 +18,6 @@ end
 def take_a_number(array, customer)
   array.push(customer)
   number_in_line = array.index(customer) + 1
-  puts "Welcome #{customer}. You are number #{number_in_line} in line."
+  puts "Welcome, #{customer}. You are number #{number_in_line} in line."
 end
   
