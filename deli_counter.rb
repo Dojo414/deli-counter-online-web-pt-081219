@@ -14,4 +14,8 @@ def line(katz_deli)
       puts "The line is currently: #{numbers_names.join(" ")}"
   end
 end
+
+def take_a_number(array, customer)
+  array.push(customer)
+  
   
